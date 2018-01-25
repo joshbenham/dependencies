@@ -20,6 +20,14 @@ if _uncallable git; then
   _install git
 fi
 
+if [[ ! -d $DEPENDENCIES ]]; then
+    _msg "Installing dependencies repository"
+    git clone http://github.com/joshbenham/dependencies $DEPENDENCIES
+else 
+    _msg "Upgrading dependencies repository"
+    cd $DEPENDENCIES
+    git pull origin master
+fi
 
 _msg
 _msg "And done!"
