@@ -1,14 +1,15 @@
 # DEPENDENCIES
 
-## Download
+## Dependencies
+- Windows Manager: i3-gaps
+- Shell: fish
+- Terminal: termite 
+- Application Launcher: rofi
+
+## Installation
 
 ```sh
-sh -c "`curl -fsSL https://raw.githubusercontent.com/joshbenham/dependencies/master/download.sh`"
-```
-
-## Install
-
-```sh
-cd ~/.dependencies
-./install.sh
+$ git clone --depth 1 https://github.com/joshbenham/dependencies ~/.dependencies
+$ cd ~/.dependencies
+$ ./install.sh
 ```
