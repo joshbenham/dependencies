@@ -3,7 +3,6 @@
 packages=(
 
 fish
-dmenu
 rofi
 termite
 vim
