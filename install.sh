@@ -3,23 +3,18 @@
 export DEPENDENCIES=~/.dependencies
 set -e
 
-_msg() { printf "\r\033[2K\033[0;32m[ dependencies ] %s\033[0m\n" "$*"; }
+# Helper Functions
+source "functions.sh"
 
-_uncallable() { ! command -v "$1" >/dev/null; }
 
-_install() {
-    if [[ -f /etc/arch-release ]]; then
-        sudo pacman -Sy "$*"
-    elif [[ -f /etc/debian_version ]]; then
-        sudo apt install -y "$*"
-    fi
-}
-
+# Make sure GIT is installed
 if _uncallable git; then
   _msg "Installing git"
   _install git
 fi
 
+
+# Pull down and/or update Dependencies
 if [[ ! -d $DEPENDENCIES ]]; then
     _msg "Installing dependencies repository"
     git clone http://github.com/joshbenham/dependencies $DEPENDENCIES
@@ -30,10 +25,13 @@ else
     git pull origin master
 fi
 
-for f in packages/*; do
-    _msg "Installing $f packages"
-    source "$f"
+
+# Installation of Packages
+for package in packages/*; do
+    _msg "Installing $package packages"
+    source "$package"
 done
+
 
 _msg
 _msg "And done!"
