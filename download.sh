@@ -38,5 +38,6 @@ fi
 # Final Message
 _msg
 _msg "To install run:"
-_msg "  source $DEPENDENCIES/install.sh"
+_msg "  $ cd $DEPENDENCIES"
+_msg "  $ ./install.sh"
 _msg
