@@ -1,13 +1,13 @@
 # DEPENDENCIES
 
-## Download and Installation
+## Download
 
 ```sh
 sh -c "`curl -fsSL https://raw.githubusercontent.com/joshbenham/dependencies/master/download.sh`"
 ```
 
-## Installation
+## Install
 
 ```sh
-sh -c "`curl -fsSL https://raw.githubusercontent.com/joshbenham/dependencies/master/install.sh`"
+source ~/.dependencies/install.sh
 ```

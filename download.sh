@@ -4,7 +4,7 @@ set -e
 
 
 # Helper Functions
-_msg() { printf "\r\033[2K\033[0;32m[ dependencies ] %s\033[0m\n" "$*"; }
+_msg() { printf "\r\033[2K\033[0;32m[ $$$ ] %s\033[0m\n" "$*"; }
 
 _uncallable() { ! command -v "$1" >/dev/null; }
 
@@ -35,9 +35,8 @@ else
     git pull origin master
 fi
 
-source install.sh
-
-
+# Final Message
 _msg
-_msg "And done!"
+_msg "To install run:"
+_msg "  source $DEPENDENCIES/install.sh"
 _msg
