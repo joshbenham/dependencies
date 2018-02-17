@@ -35,6 +35,7 @@ else
     git pull origin master
 fi
 
+
 # Final Message
 _msg
 _msg "To install run:"
