@@ -35,7 +35,6 @@ else
     git pull origin master
 fi
 
-cd $DEPENDENCIES
 source install.sh
 
 
