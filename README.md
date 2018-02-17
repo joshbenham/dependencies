@@ -9,5 +9,6 @@ sh -c "`curl -fsSL https://raw.githubusercontent.com/joshbenham/dependencies/mas
 ## Install
 
 ```sh
-source ~/.dependencies/install.sh
+cd ~/.dependencies
+./install.sh
 ```
