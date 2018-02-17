@@ -5,3 +5,6 @@ if [[ ! -f "$FILENAME" ]]; then
     _msg "Setting up SDDM"
     sudo ln -sf /usr/lib/systemd/system/sddm.service "$FILENAME"
 fi
+
+_msg "Changing default shell to FISH"
+chsh -s $(which fish)
