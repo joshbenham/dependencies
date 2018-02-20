@@ -3,7 +3,7 @@ set -e
 
 
 # Helper Functions
-_msg() { printf "\r\033[2K\033[0;32m[ $$$ ] %s\033[0m\n" "$*"; }
+_msg() { printf "\r\033[2K\033[0;32m[ \$\$\$ ] %s\033[0m\n" "$*"; }
 
 _uncallable() { ! command -v "$1" >/dev/null; }
 
