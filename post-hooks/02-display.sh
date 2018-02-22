@@ -10,12 +10,11 @@ fi
 _msg "Changing default shell to FISH"
 chsh -s $(which fish)
 
-
-FILENAME="~/.config/fish/functions/fisher.fish"
+FILENAME="$HOME/.config/fish/functions/fisher.fish"
 if [[ ! -e "$FILENAME" ]]; then
     _msg "Installing Fisher"
-    curl -Lo "$FILENAME" --create-dirs https://git.io/fisher
-    source "$FILENAME"
+    curl -Lo $FILENAME --create-dirs https://git.io/fisher
+    source $FILENAME
 fi
 
 
