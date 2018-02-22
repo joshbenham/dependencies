@@ -8,6 +8,7 @@ i3lock
 i3status
 i3blocks
 network-manager-applet
+ttf-dejavu
 
 )
 
