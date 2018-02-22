@@ -11,4 +11,4 @@ network-manager-applet
 
 )
 
-sudo pacman -Sy ${packages[@]}
+sudo pacman -Sy --noconfirm ${packages[@]}

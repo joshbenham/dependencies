@@ -7,4 +7,4 @@ xorg-server
 
 )
 
-sudo pacman -Sy ${packages[@]}
+sudo pacman -Sy --noconfirm ${packages[@]}
