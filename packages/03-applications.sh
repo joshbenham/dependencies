@@ -2,9 +2,15 @@
 
 packages=(
 
+# System
+termite
 fish
 rofi
-termite
+
+# Development
+python
+
+# Editors
 vim
 
 )
