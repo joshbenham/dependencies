@@ -16,6 +16,13 @@ _install() {
 }
 
 
+# Pre Hooks to run before Package Installation
+for hook in pre-hooks/*; do
+    _msg "Running $hook pre hooks"
+    source "$hook"
+done
+
+
 # Installation of Packages
 for package in packages/*; do
     _msg "Installing $package packages"
@@ -23,7 +30,7 @@ for package in packages/*; do
 done
 
 
-# Post Hooks to run after Packages
+# Post Hooks to run after Package Installation
 for hook in post-hooks/*; do
     _msg "Running $hook post hooks"
     source "$hook"
