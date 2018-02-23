@@ -5,8 +5,12 @@ sudo pacman -Syu --noconfirm
 
 packages=(
 
-# System
+# Building
 yaourt
+fakeroot
+
+
+# System
 xorg
 xorg-server
 
@@ -33,4 +37,4 @@ vim
 
 )
 
-sudo pacman -Sy --noconfirm ${packages[@]}
+sudo pacman -Sy --noconfirm --needed ${packages[@]}
