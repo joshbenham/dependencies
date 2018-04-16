@@ -8,6 +8,7 @@ packages=(
 # Building
 yaourt
 fakeroot
+wget
 
 
 # Desktop
