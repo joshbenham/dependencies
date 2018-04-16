@@ -1,12 +1,5 @@
 #!/usr/bin/env bash
 
-FILENAME="/etc/systemd/system/display-manager.service"
-if [[ ! -e "$FILENAME" ]]; then
-    _msg "Setting up SDDM"
-    sudo ln -sf /usr/lib/systemd/system/sddm.service "$FILENAME"
-fi
-
-
 FOLDER="$HOME/.config/base16-shell"
 if [[ ! -e "$FOLDER" ]]; then
     _msg "Cloning base16-shell colours"

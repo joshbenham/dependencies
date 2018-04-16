@@ -10,21 +10,11 @@ yaourt
 fakeroot
 
 
-# System
-xorg
-xorg-server
-
-
 # Desktop
-sddm
 i3-gaps
-i3lock
-i3status
-i3blocks
 network-manager-applet
 ttf-dejavu
 termite
-fish
 rofi
 
 
