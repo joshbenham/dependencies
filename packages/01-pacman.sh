@@ -17,6 +17,7 @@ network-manager-applet
 ttf-dejavu
 termite
 rofi
+neofetch
 
 
 # Development
