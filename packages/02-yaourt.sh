@@ -5,8 +5,9 @@ sudo pacman -Syu --noconfirm
 
 packages=(
 
-# Desktop
+# Fonts
 nerd-fonts-complete
+ttf-iosevka
 
 )
 
