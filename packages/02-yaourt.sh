@@ -6,6 +6,7 @@ sudo pacman -Syu --noconfirm
 packages=(
 
 # Fonts
+fontconfig-infinality
 nerd-fonts-complete
 ttf-iosevka
 
