@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
 FILE="/etc/pacman.conf"
-if _uncallable yaourt; then
+
+if ! grep -Fxq "[archlinuxfr]" "$FILE"; then
     _msg "Adding yaort repositories"
     sudo sh -c "echo '' >> $FILE"
     sudo sh -c "echo '' >> $FILE"

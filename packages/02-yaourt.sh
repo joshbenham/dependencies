@@ -6,9 +6,12 @@ sudo pacman -Syu --noconfirm
 packages=(
 
 # Fonts
-fontconfig-infinality
-nerd-fonts-complete
+ttf-ms-fonts
+ttf-vista-fonts
+ttf-monaco
+ttf-qurancomplex-fonts
 ttf-iosevka
+nerd-fonts-complete
 
 )
 

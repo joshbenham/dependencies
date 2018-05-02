@@ -11,10 +11,19 @@ fakeroot
 wget
 
 
+# Fonts
+ttf-bitstream-vera
+ttf-inconsolata
+ttf-ubuntu-font-family
+ttf-dejavu
+ttf-freefont
+ttf-linux-libertine
+ttf-liberation
+
+
 # Desktop
 i3-gaps
 network-manager-applet
-ttf-dejavu
 termite
 rofi
 neofetch
