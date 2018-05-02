@@ -10,7 +10,6 @@ ttf-ms-fonts
 ttf-vista-fonts
 ttf-monaco
 ttf-qurancomplex-fonts
-ttf-iosevka
 nerd-fonts-complete
 
 )
