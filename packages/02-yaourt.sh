@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sudo pacman -Syu --noconfirm
+et -x VISUAL 'vim'
 
 
 packages=(
@@ -11,6 +11,10 @@ ttf-vista-fonts
 ttf-monaco
 ttf-qurancomplex-fonts
 nerd-fonts-complete
+
+
+# Tools
+python-pywal
 
 )
 
