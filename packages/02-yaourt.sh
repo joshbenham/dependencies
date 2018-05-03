@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 
-et -x VISUAL 'vim'
-
-
 packages=(
 
 # Fonts

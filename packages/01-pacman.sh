@@ -24,9 +24,12 @@ ttf-liberation
 # Desktop
 i3-gaps
 network-manager-applet
+rxvt-unicode
 termite
+thunar
 rofi
 neofetch
+chromium
 
 
 # Development
@@ -35,6 +38,7 @@ python
 
 # Editors
 vim
+neovim
 
 )
 
