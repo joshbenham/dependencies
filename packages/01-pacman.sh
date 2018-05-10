@@ -9,6 +9,7 @@ packages=(
 yaourt
 fakeroot
 wget
+binutils
 
 
 # Fonts
@@ -30,6 +31,7 @@ thunar
 rofi
 neofetch
 chromium
+feh
 
 
 # Development
