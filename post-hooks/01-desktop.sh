@@ -1,12 +1,5 @@
 #!/usr/bin/env bash
 
-FOLDER="$HOME/.config/base16-shell"
-if [[ ! -e "$FOLDER" ]]; then
-    _msg "Cloning base16-shell colours"
-    git clone https://github.com/chriskempson/base16-shell.git "$FOLDER"
-fi
-
-
 FILENAME="$HOME/.config/fish/functions/fisher.fish"
 if [[ ! -e "$FILENAME" ]]; then
     _msg "Installing Fisher"
