@@ -29,9 +29,13 @@ rxvt-unicode
 termite
 thunar
 rofi
+fzf
 neofetch
-chromium
 feh
+
+
+# Browsers
+chromium
 
 
 # Development
