@@ -2,6 +2,10 @@
 
 packages=(
 
+# Desktop
+polybar
+
+
 # Fonts
 ttf-ms-fonts
 ttf-monaco
