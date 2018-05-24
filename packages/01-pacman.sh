@@ -32,6 +32,7 @@ rofi
 fzf
 neofetch
 feh
+ack
 
 
 # Browsers
