@@ -33,6 +33,7 @@ fzf
 neofetch
 feh
 ack
+exa
 
 
 # Browsers
